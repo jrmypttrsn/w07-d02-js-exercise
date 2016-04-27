@@ -80,3 +80,22 @@ function blueBackground() {
 		addClass(b, "blue-background");
 	}
 }
+
+function weekEon() {
+	var w = document.getElementsByTagName("title");
+	w[0].innerHTML = "Eon 7, Day 2 Practice";
+	var w = document.getElementById("we");
+	w.innerHTML = "Eon 7, Day 2 Practice";
+}
+
+function eonWeek() {
+	var w = document.getElementsByTagName("title");
+	w[0].innerHTML = "Week 7, Day 2 Practice";
+	var w = document.getElementById("we");
+	w.innerHTML = "Week 7, Day 2 Practice";
+}
+
+function rightJustify(r) {
+	var r = document.getElementById("pfive");
+  addClass(r, "right");
+}
