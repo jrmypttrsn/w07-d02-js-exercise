@@ -112,3 +112,8 @@ function hideAgain(c) {
 	var l = document.getElementById("psix");
 	l.innerHTML = "this link";
 }
+
+function pPrompt(t) {
+	var pp = prompt("Give me a phrase and I'll show you magic!");
+	t.innerHTML = pp;
+}
