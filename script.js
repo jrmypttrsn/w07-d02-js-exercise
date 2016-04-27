@@ -66,3 +66,17 @@ function revealParagraph() {
 	  r.style.display = 'block';
 	}
 }
+
+function blueBackground() {
+	var b = document.getElementById("ptwo");
+	if (b.classList.contains("blue-background")) {
+		removeClass(b, "blue-background");
+		addClass(b, "orange-background");
+	}
+	else if (b.classList.contains("orange-background")) {
+		removeClass(b, "orange-background");
+	}
+	else {
+		addClass(b, "blue-background");
+	}
+}
