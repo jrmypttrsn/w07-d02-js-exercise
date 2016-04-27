@@ -99,3 +99,16 @@ function rightJustify(r) {
 	var r = document.getElementById("pfive");
   addClass(r, "right");
 }
+
+function upcaseLinkText() {
+	var u = document.getElementById("psix");
+	u.innerHTML = "THIS LINK!!";
+	img = document.getElementById("cat");
+	removeClass(img, "hidden");
+}
+
+function hideAgain(c) {
+	addClass(c, "hidden");
+	var l = document.getElementById("psix");
+	l.innerHTML = "this link";
+}

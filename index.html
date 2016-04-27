@@ -48,14 +48,14 @@
       <p id="pfive" onclick="rightJustify();">When you click on this paragraph, the above paragraph should go from being
       left-justified to right-justified.</p>
 
-      <p>Clicking <a href="#">this link</a> changes the link's text to say "THIS
+      <p>Clicking <a href="#" id="psix" onclick="upcaseLinkText();">this link</a> changes the link's text to say "THIS
       LINK!!" and makes a picture appear below this paragraph. Clicking the picture
       returns the link text to what it was before and makes the picture
       disappear.</p>
       
       <!-- the picture below should start as invisible and only appear when
       something happens in the above paragraph -->
-      <img src="http://placekitten.com/g/400/300">
+      <img id="cat" class="hidden" onclick="hideAgain(this);" src="http://placekitten.com/g/400/300">
 
       <p>Clicking this paragraph prompts the user for a word or phrase, then changes
       the text of this paragraph to be that word or phrase</p>
