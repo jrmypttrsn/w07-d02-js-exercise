@@ -96,7 +96,7 @@ function eonWeek() {
 }
 
 function rightJustify(r) {
-	var r = document.getElementById("pfive");
+	var r = document.getElementById("pfour");
   addClass(r, "right");
 }
 
