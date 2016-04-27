@@ -27,15 +27,25 @@ function makePurple(p) {
 function makeOrange() {
   var listItems = document.getElementsByClassName("list-item");
   for (var i = 0; i < listItems.length; i++) {
+  	if (listItems[i].classList.contains("purple")){
+    removeClass(listItems[i], "purple");
     addClass(listItems[i], "orange");
   }
+  else {
+  	addClass(listItems[i], "orange");
+  }
+  }
 }
-
 
 function returnToBlack() {
   var listItems = document.getElementsByClassName("list-item");
   for (var i = 0; i < listItems.length; i++) {
-    listItems[i].classList.remove("orange");
+  	if (listItems[i].classList.contains("purple")){
+  		removeClass(listItems[i], "purple");
+  	}
+  	if (listItems[i].classList.contains("orange")){
+  		removeClass(listItems[i], "orange");
+  	}
   }
 }
 
