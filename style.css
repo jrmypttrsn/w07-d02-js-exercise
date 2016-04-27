@@ -4,5 +4,13 @@ html {
 }
 
 .orange {
-	color: #FF5722;
+	color: #FF9800;
+}
+
+.hide-paragraph {
+	display: block;
+}
+
+.purple {
+	color: #9C27B0;
 }

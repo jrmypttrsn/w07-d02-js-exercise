@@ -19,21 +19,21 @@
       <h1 class="header">Week 7, Day 2 Practice</h1>
       
       <ol>
-        <li class="list-item">Click me to turn me purple. Click me again to turn me black.</li>
-        <li class="list-item">Click me to turn me purple. Click me again to turn me black.</li>
-        <li class="list-item">Click me to turn me purple. Click me again to turn me black.</li>
-        <li class="list-item">Click me to turn me purple. Click me again to turn me black.</li>
-        <li class="list-item">Click me to turn me purple. Click me again to turn me black.</li>
+        <li class="list-item" onclick="makePurple(this);">Click me to turn me purple. Click me again to turn me black.</li>
+        <li class="list-item" onclick="makePurple(this);">Click me to turn me purple. Click me again to turn me black.</li>
+        <li class="list-item" onclick="makePurple(this);">Click me to turn me purple. Click me again to turn me black.</li>
+        <li class="list-item" onclick="makePurple(this);">Click me to turn me purple. Click me again to turn me black.</li>
+        <li class="list-item" onclick="makePurple(this);">Click me to turn me purple. Click me again to turn me black.</li>
       </ol>
       
-      <p> When you click <a href="#" onClick="makeOrange();">This Link</a>, list items with a class of
+      <p class="hide-paragraph" id="pone"> When you click <a href="#" onClick="makeOrange();">This Link</a>, list items with a class of
       "list-item" should turn orange. When you click <a href="#" onClick="returnToBlack();">this link</a>, they
       should return to whatever color they would be otherwise (this might change if
       you click on those items). This should override whether they are purple or
       not.</p>
       
-      <p>When you click<a href="#">This link</a>, the above paragraph should
-      disappear. When you click <a href="#">This link</a>, it should reappear.</p>
+      <p>When you click<a href="#" onClick="hideParagraph()">This link</a>, the above paragraph should
+      disappear. When you click <a href="#" onClick="revealParagraph()">This link</a>, it should reappear.</p>
       
       <p>When you click <a href="#">this link</a>, the above paragraph should gain a
       blue blackground. When you click that link again, it should become orange.
